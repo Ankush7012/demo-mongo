@@ -1,0 +1,49 @@
+
+ For Authorization(after login) header must contain token(Basic Authorization) and api-key(in header)
+
+
+ routes without authentication are /user/create & /user/login
+
+
+
+
+
+
+
+
+POST /user/create ====> Creates a user with name and password parameters
+
+POST /user/login   ====> Login for user that returns api-key and token
+
+
+
+
+
+
+
+POST /stationbookings =======> get bookings of station  parameters are stationId,userId & workerId
+
+POST /booking/create===========> creates booking for user based on nearest location of station from user's location
+
+
+
+POST /imageupload ========> uploads an image with file parameters with type as parameter & possible values user or station
+
+
+
+
+
+
+POST /station/create =========> create a station
+
+
+
+
+POSt /vehicle/create  ==========> create a vehicle
+
+
+
+POST /worker/create  =============> create a worker
+
+
+
